@@ -1,4 +1,3 @@
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -23,12 +22,30 @@
         <h4>0</h4>
       </div>
      </div>
-     <form class="jogo">
-     </form>
+     <div class="jogo">
+     </div>
+     <div class="resultado">
+      <div class="jogador">
+        <h5>You Picked</h5>
+        <img src="images/icon-paper.svg" class="opcao papel" alt="">
+      </div>
+      <div class="jogar-novamente">
+        <h2>YOU WIN</h2>
+        <button class="novo-jogo">
+          play again
+        </button>
+      </div>
+      <div class="algoritmo">
+        <h5>the house picked</h5>
+        <img src="images/icon-rock.svg" class="opcao pedra" alt="">
+      </div>
+     </div>
   </div>
-  <script src="model.js"></script>
-  <script src="view.js"></script>
-  <script src="controller.js"></script>
+  <script src="js/model.js"></script>
+  <script src="js/viewJogo.js"></script>
+  <script src="js/viewResultado.js"></script>
+  <script src="js/viewPontuacao.js"></script>
+  <script src="js/controller.js"></script>
   <script>
     let controle = new Controller();
   </script>

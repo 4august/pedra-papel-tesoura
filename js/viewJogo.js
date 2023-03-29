@@ -1,4 +1,4 @@
-class View{
+class ViewJogo{
     constructor(opcao){
         this.opcao = opcao
     }

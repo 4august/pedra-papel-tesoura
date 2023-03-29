@@ -67,3 +67,48 @@ body{
     bottom: -20%;
     right: 39%;
 }
+
+.container .resultado{
+    display: none;
+    justify-content: space-between;    
+    margin-top: 5%;
+}
+.container .resultado .jogador, .container .resultado .jogar-novamente, .container .resultado .algoritmo{
+    text-align: center;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.container .resultado .jogador h5, .container .resultado .algoritmo h5{
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.container .resultado .jogar-novamente h2{
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.container .resultado .jogar-novamente button{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: hsl(229, 25%, 31%);
+    padding: 6% 3%;
+}
+.container .resultado .jogador img, .container .resultado .algoritmo img{
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+    background: white;
+    padding: 10%;
+    border-radius: 100%;
+}
+.container .resultado .jogar-novamente{
+    display: grid; 
+    align-content: center;
+    padding: 0 10%;
+}
+.container .resultado .jogador .pedra, .container .resultado .algoritmo .pedra{border: 20px solid hsl(349, 70%, 56%);}
+.container .resultado .jogador .papel, .container .resultado .algoritmo .papel{border: 20px solid hsl(230, 89%, 65%);}
+.container .resultado .jogador .tesoura, .container .resultado .algoritmo .tesoura{border: 20px solid  hsl(40, 84%, 53%);}
